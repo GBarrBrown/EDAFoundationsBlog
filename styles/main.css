@@ -2,10 +2,10 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 body {
-    background-color: #2b3e50;
+    background-color: #a5c4d6;
 }
 h1 {
-    color: orange;
+    color: grey;
     font-family: 'Roboto', sans-serif;
 }
 p {
@@ -37,6 +37,9 @@ p {
     background-color: #485563;
 }
 footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     background-color: orange;
     color: white;
     font-size: 12px;
