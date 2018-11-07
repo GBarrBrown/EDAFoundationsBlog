@@ -44,7 +44,8 @@ p {
 }
 
 .TopNav li a:hover {
-    background-color: #485563;
+    background-color: #E8E8E8;
+    color: #2E2E2E;
 }
 
 footer {
