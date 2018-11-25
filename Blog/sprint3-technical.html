@@ -31,29 +31,39 @@
     <div class="blog-post">
     <h3>Analogy to describe difference between HTML and CSS</h3>
 
-        A way that I've found useful for describing the relationship between HTML and CSS is picture you're overall website as a house. 
-        The structure, frame, general layout and generic content within is what HTML controls. 
-        So far you have a pretty bland house, it has all the things you need, but they may not be in their ideal place or look the part. 
-        Sure you could live here but its really just a house, and what we're after is a home. 
-        This is where you could choose to bring in a stylist or designer. 
-        They make small adjustments, change colours, swap out furnishings, and set appropriate themes for different rooms (You're unlikely to put carpet in the bathroom) and CSS is how we bring about these design changes to our website.
+      A way that I've found useful for describing the relationship between HTML and CSS is picture you're overall website as a house. 
+      The structure, frame, general layout and generic content within is what HTML controls. 
+      So far you have a pretty bland house, it has all the things you need, but they may not be in their ideal place or look the part. 
+      Sure you could live here but its really just a house, and what we're after is a home. 
+      This is where you could choose to bring in a stylist or designer. 
+      They make small adjustments, change colours, swap out furnishings, and set appropriate themes for different rooms (You're unlikely to put carpet in the bathroom) and CSS is how we bring about these design changes to our website.
     
     </div>
 
     <div class="blog-post">
     <h3>Explain Control Flow and Loops</h3>
 
-        Control Flow - The Flow of a program is a representation of the order in which it executes (runs) different instructions, just like you would think of the flow of your day, the motions you go through, so does a computer program. 
-        <br>
-        There are different ways you can alter the flow of a program, one of those ways is through the use of 'conditional loops' - a block of code that is repeated until some condition the computer is checking is no longer met.
+      Control Flow - The Flow of a program is a representation of the order in which it executes (runs) different instructions, just like you would think of the flow of your day, the motions you go through, so does a computer program. 
+      <br>
+      There are different ways you can alter the flow of a program, one of those ways is through the use of 'conditional loops' - a block of code that is repeated until some condition the computer is checking is no longer met.
+      <br>
+      An example of this is when you go to get a bowl of cereal, you need to be careful about how much milk you pour. personally I like to just cover the cereal so to tell a computer to do this id say something similar to 
+      <br>
+      <pre>
+        while(milkLevel < cerealLevel) {
+          pourMilk();
+        }
+      </pre>
+      A while loop runs the code inside its {curley brackets} until the condition in the (round brackets) is no longer true. In this case once the milkLevel is equal or greater than the cerealLevel it'll stop running the pourMilk command.
     </div>
 
     <div class="blog-post">
     <h3>The DOM</h3>
     
-            The DOM is your browsers internal representation of a webpage, created by taking the necesary HTML, CSS and JS files into account so it can understand what you are wanting displayed on the screen.
-            DOM stands for Document Object Model, that's the general idea of what the DOM does. It takes your code maps it out like a family tree, basically whereever your code would normally indent or nest below another element in the tree diagram it would be considered a child of the upper element. 
-            The cool thing about the DOM is that you can use scripting Languages (often times JavaScript) to manipulate your initial HTML, allowing you to alter content on your page or even allow users to alter content on their page. 
+      The DOM is your browsers internal representation of a webpage, created by taking the necesary HTML, CSS and JavaScript files into account so it can understand what you are wanting displayed on the screen.
+      DOM stands for Document Object Model, that's the general idea of what the DOM does. It takes your code and maps it out like a family tree, basically whereever your code would normally indent or nest below another element in the tree diagram it would be considered a child of the upper element. 
+      The cool thing about the DOM is that you can use scripting Languages (often times JavaScript) to manipulate the initial HTML you gave it, allowing you to alter content on your page or even allow users to alter content on their page. 
+      An exmaple woud be adding items to an online todo list and having them appear as on the site you're viewing, itll update your version of the webpage but wont go to every other user. 
     
     </div>
 
