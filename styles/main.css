@@ -99,3 +99,7 @@ footer {
     background-position: center;
     opacity: 0.5;
   }
+
+  .bordered-table {
+      border-collapse: collapse;
+  }
