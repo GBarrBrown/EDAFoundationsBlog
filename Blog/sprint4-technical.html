@@ -1,45 +1,64 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Sprint4 Technical</title>
-    <meta charset="UTF-8">
-    <link href="../styles/main.css" rel="stylesheet" type="text/css">
-  </head>
-  
-  <body>
-      <div class="TopNav">
-          <ul>
-              <li><a href="../index.html">Home</a></li>
-              <li><a href="sprint1-technical.html">Sprint1Tech</a></li>
-              <li><a href="sprint1-cultural.html">Sprint1Cultural</a></li>
-              <li><a href="sprint2-technical.html">Sprint2Tech</a></li>
-              <li><a href="sprint2-cultural.html">Sprint2Cultural</a></li>
-              <li><a href="sprint3-technical.html">Sprint3Tech</a></li>
-              <li><a href="sprint3-cultural.html">Sprint3Cultural</a></li>
-              <li><a href="sprint4-technical.html">Sprint4Tech</a></li>
-              <li><a href="sprint4-cultural.html">Sprint4Cultural</a></li>
-              
-      
-          </ul>
-      </div>
+<head>
+  <title>Sprint4 Technical</title>
+  <meta charset="UTF-8">
+  <link href="../styles/main.css" rel="stylesheet" type="text/css">
+</head>
 
+<body>
+  <div class="TopNav">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="sprint1-technical.html">Sprint1Tech</a></li>
+      <li><a href="sprint1-cultural.html">Sprint1Cultural</a></li>
+      <li><a href="sprint2-technical.html">Sprint2Tech</a></li>
+      <li><a href="sprint2-cultural.html">Sprint2Cultural</a></li>
+      <li><a href="sprint3-technical.html">Sprint3Tech</a></li>
+      <li><a href="sprint3-cultural.html">Sprint3Cultural</a></li>
+      <li><a href="sprint4-technical.html">Sprint4Tech</a></li>
+      <li><a href="sprint4-cultural.html">Sprint4Cultural</a></li>
+    </ul>
+  </div>
 
-
-    <div class="banner-image"></div>
-
-
+  <div class="banner-image"></div>
     <h1>Sprint 4 Tech</h1>
 
-    <div class="blog-post">
-    <h3>Title</h3>
-      Content
+    <div class="blog-post">     
+      <h3>The Dreaded Error Message</h3>
+      <p>
+        In one of my tasks I needed do some work with objects. 
+        Objects in code are similar to objects in real life in the sense that you refer to them by a name and associate certain preperties with them. 
+        If you made an object to represent a ball, you might call it - <code>'ballObj'</code> and give it a property - <code>'shape'</code> with the value - <code>'round'</code>.
+        <br/><br/>
+        Now in most cases in code you use <code>=</code> to signify you want to tie a value to what is called a variable (eg. <code>round</code>), a container for that value (eg. <code>shape</code>). 
+        But in the case of objects you use something different called key-value pairs. 
+        These make it easier to do certain things with objects that I wont get into but just know that with objects you dont use <code>=</code> to link the two together you use <code>:</code>. 
+        <br/><br/>
+        This slipped my mind while working away and when I came to test my code... Errors ensued. 
+        On first glance it seemed my code was all written correctly. 
+        I wasn't missing any brackets - <code>( )</code> or semi-colons - <code>;</code>, which are the usual culprates. 
+        <br/><br/>
+        So I checked out what the error messages had to say <code style="color:red">"Uncaught SyntaxError: Invalid shorthand property initializer"</code>.
+        It was telling me I'd used the wrong syntax <code>=</code> instead of <code>:</code> when writing my code. 
+        Oops. Quick fix, just had to change the one character and my code worked as intended.
+        <br/><br/>
+        I let the differences in object syntax slip my mind while coding and was genuinly stumped as to why my code wouldn't run. 
+        But by checking out the error message it became clear where I'd gone wrong. 
+        This was a good reminder to myself and is to others, that even if you've learnt something in the past, you can't gaurentee you'll get it right everytime from then on out, we all make mistakes. 
+        But taking the time to figure out where you went wrong can help lessen the chances you'll make it again in the future. 
+        And remember - The <code style="color:red">Error Message</code> might seem daunting but it often has some great insight into what's gone wrong.
+
+      </p>
     </div>
 
+  </div>
 
 
 
 
-    
+
   
-  </body>
+
+</body>
 </html>
