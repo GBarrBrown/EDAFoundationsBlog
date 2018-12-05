@@ -52,6 +52,33 @@
       </p>
     </div>
 
+    <div class="blog-post">     
+      <h3>Elegant Solutions</h3>
+      <p>
+        There was a function I needed to make that could take a string and capitalize the first letter of every word. 
+        To the best of my knowledge JavaScript doesnt have a built in way to do this, however there is a function that will capitalize everything you give it. 
+        So I figured I needed a way to pass that function <code>.toUpperCase()</code> only the first letter of all the words in my sentence.
+        <br/><br/>
+        I managed to do this by taking the sentence (stored as a string) and using <code>.split(" ")</code> ,creating an array from the string with each word (detected by the presence of a blank space) in its own cell. 
+        From here I ran a function taking the first character in each cell of the array <code>cell[0]</code>, capitalizing it using the <code>.toUpperCase()</code> function and then pairing it back together using string concatenation <code>"H" + "ello"  -> "Hello"</code> with the respective word minus that first character using <code>cell.splice(1)</code>. 
+        All of that was controlled by a map which allows you to call functions on each item in a collection, which in this case was the array made from the original string. 
+        After all the words (cells) had been run through they were joined back into a string again using the <code>.join(" ")</code> function, connecting the arrays cells with a sapace be each.
+      </p>
+      <p>
+        The process ran like this:
+        <br/><code>"hello world"  ->  ["hello", "world"]  ->  H + ello  &  W + orld  ->  ["Hello", "World"]  ->  "Hello World"</code>
+        
+        <br/><br/>
+        This is the actual code I wrote:
+        <pre>
+          <code>function capitalize (str){ 
+            return str.split(" ").map(x => x[0].toUpperCase() + x.slice(1)).join(" ");
+          }
+          </code>
+        </pre>
+      </p>
+    </div>
+
   </div>
 
 
